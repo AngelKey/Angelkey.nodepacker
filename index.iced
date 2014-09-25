@@ -37,7 +37,7 @@ unbufferify = (o) ->
 
 #==================================================================
 
-compress = (o) -> pack bufferify o
+compress = (o) -> pack bufferify(o), { sort_keys : true }
 uncompress = (o) -> unbufferify unpack o
 
 #==================================================================

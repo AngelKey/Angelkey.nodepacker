@@ -67,7 +67,9 @@
   };
 
   compress = function(o) {
-    return pack(bufferify(o));
+    return pack(bufferify(o), {
+      sort_keys: true
+    });
   };
 
   uncompress = function(o) {
