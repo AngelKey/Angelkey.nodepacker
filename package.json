@@ -1,5 +1,5 @@
 {
-  "name": "json-compressor",
+  "name": "json-packer",
   "version": "1.0.0",
   "description": "Use Purepack to compress this JSON object",
   "main": "index.js",
